@@ -3,10 +3,16 @@
 Library to help build reports consuming django models and their fields. Shall use plotly(offline) to build the charts.
 
 ## Features
-- Currently will support 2-d graphs
-- Will be able to take in two different models and their fields
-- User needs to specify the operation to be performed on the fields, for example - count, min, max, average etc.
-- User will be able to provide the type of chart as input, for example - Bar, scatterplot etc.
+
+### Report
+- Will be able to generate full-fledged report consisting of various user defined charts.
+- Will be able to produce both HTML and PDF versions of reports
+- Will be able to load custom html provided by the user
+
+### Chart
+- Will take in a model
+- Will take in the X-axis and Y-axis fields
+- Will take in the type of chart to produce (Scatter, Bar etc)
 
 ## Dependencies
 - django==1.11.x
