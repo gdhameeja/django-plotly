@@ -1,6 +1,6 @@
 from src.charts.chart import ChartManager
 
-class Report(object):
+class Report:
     to_pdf = False
     html_template = 'templates/default_report.html'
 
